@@ -10,8 +10,3 @@ go run merge_txt.go . merged.txt
 
 ### 合并指定文件夹的txt文件
 go run merge_txt.go ./input_folder result.txt
-
-### 合并其他扩展名的文件
-go run merge_txt.go ./docs output.md .md
-go run merge_txt.go ./data combined.txt .log
-
